@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.image{
+    background-image:url('images/girl on phone.jpeg')
+}
+@media screen and (min-width: 800px) {
+    body {
+    margin-left:0px;
+    margin-right:0px; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
